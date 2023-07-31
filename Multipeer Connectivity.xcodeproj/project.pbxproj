@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B1850B5C2A75172300F8BAC1 /* MessageMultipeerSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1850B5B2A75172300F8BAC1 /* MessageMultipeerSession.swift */; };
+		B1BAAA5A2A751E8300F053A4 /* HostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1BAAA592A751E8300F053A4 /* HostView.swift */; };
+		B1BAAA5C2A751F7E00F053A4 /* GuestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1BAAA5B2A751F7E00F053A4 /* GuestView.swift */; };
 		B1FDAA7D2A73A716009142E7 /* Multipeer_ConnectivityApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FDAA7C2A73A716009142E7 /* Multipeer_ConnectivityApp.swift */; };
 		B1FDAA7F2A73A716009142E7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FDAA7E2A73A716009142E7 /* ContentView.swift */; };
 		B1FDAA812A73A716009142E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1FDAA802A73A716009142E7 /* Assets.xcassets */; };
@@ -14,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B1850B5B2A75172300F8BAC1 /* MessageMultipeerSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageMultipeerSession.swift; sourceTree = "<group>"; };
+		B1BAAA592A751E8300F053A4 /* HostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostView.swift; sourceTree = "<group>"; };
+		B1BAAA5B2A751F7E00F053A4 /* GuestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuestView.swift; sourceTree = "<group>"; };
 		B1FDAA792A73A716009142E7 /* Multipeer Connectivity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Multipeer Connectivity.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1FDAA7C2A73A716009142E7 /* Multipeer_ConnectivityApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multipeer_ConnectivityApp.swift; sourceTree = "<group>"; };
 		B1FDAA7E2A73A716009142E7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +59,9 @@
 			children = (
 				B1FDAA7C2A73A716009142E7 /* Multipeer_ConnectivityApp.swift */,
 				B1FDAA7E2A73A716009142E7 /* ContentView.swift */,
+				B1BAAA592A751E8300F053A4 /* HostView.swift */,
+				B1BAAA5B2A751F7E00F053A4 /* GuestView.swift */,
+				B1850B5B2A75172300F8BAC1 /* MessageMultipeerSession.swift */,
 				B1FDAA802A73A716009142E7 /* Assets.xcassets */,
 				B1FDAA822A73A716009142E7 /* Preview Content */,
 			);
@@ -138,6 +147,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1FDAA7F2A73A716009142E7 /* ContentView.swift in Sources */,
+				B1BAAA5C2A751F7E00F053A4 /* GuestView.swift in Sources */,
+				B1850B5C2A75172300F8BAC1 /* MessageMultipeerSession.swift in Sources */,
+				B1BAAA5A2A751E8300F053A4 /* HostView.swift in Sources */,
 				B1FDAA7D2A73A716009142E7 /* Multipeer_ConnectivityApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
